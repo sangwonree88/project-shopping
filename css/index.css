@@ -1,5 +1,5 @@
 /* header */
-header {
+#header {
     background: #fff;
 }
 
@@ -104,21 +104,21 @@ header {
 
 
 
-nav {
+#nav {
     border-bottom:1px solid #ccc;
 }
 
-nav ul {
+#nav ul {
     width:1200px;
     margin:0 auto;
 }
 
-nav li {
+#nav li {
     float:left;
     height:37px;
 }
 
-nav a {
+#nav a {
     display: block;
     padding:9px 21.5px 12px 21.5px;
     font-weight:bold;
@@ -126,11 +126,11 @@ nav a {
     color:#000;
 }
 
-nav .emp a {
+#nav .emp a {
     color:#f00;
 }
 
-nav a:hover {
+#nav a:hover {
     background-image: url(../img/index/menu_hover.gif);
     background-position: top center;
     background-repeat: no-repeat;
